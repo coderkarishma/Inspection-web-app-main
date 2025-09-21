@@ -8,7 +8,7 @@ export default defineConfig({
   },
     server: {
     proxy: {
-      '/api': 'http://localhost:5000', // your backend port
+      '/api': 'https://pdi-web-app-main-backend.onrender.com/', // your backend port
     },
   }
 });
